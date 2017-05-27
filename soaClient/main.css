@@ -1,0 +1,25 @@
+.grid {
+  width: 500px;
+  height: 250px;
+}
+
+.ui-datepicker-calendar {
+    display: none;
+}​
+
+#parent {
+    overflow: hidden;
+    border: 1px solid red;
+	text-align:center
+}
+.right {
+    float: right;
+    width: 100px;
+    height: 100px;
+    background: #888;
+ display:inline-block}
+.left {
+    overflow: hidden;
+    height: 100px;
+    background: #ccc;
+ display:inline-block}

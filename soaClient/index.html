@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html ng-app="app">
+   <head>
+      <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+      <link id="style" href="css/classic.css" rel="stylesheet" media="screen">
+       <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+      <script src="app.js"></script>
+      <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7; IE=EmulateIE9">
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+      <link rel="stylesheet" type="text/css" href="style.css" media="all" />
+      <link rel="stylesheet" type="text/css" href="demo.css" media="all" />
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> 
+      <script src="js/jquery.columns-1.0.min.js"></script> 
+      <script src="src/loadingoverlay.min.js"></script> 
+      <script src="src/loadingoverlay.js"></script> 
+   </head>
+   <body>
+      <div class="container" >
+         <header>
+            <h1><span>SOA Project</span> Program Is for all palestinian universities</h1>
+         </header>
+	
+          <div  class="form" >
+		    <h1>Please Choose the parameters</h1>
+			<br> 
+            <form id="contactform"
+               <p class="contact"><label for="seatNumber">seat Number</label></p>
+               <input id="seatNumber" name="seatNumber" placeholder="Insert the seat number"   tabindex="1" type="text" > 
+               <br>
+               <p class="contact"><label for="txtDate">Inser Year </label></p>
+               <input type='text' id='txtDate' placeholder="Insert the Year YYYY"  />
+               <br>
+               <select class="select-style gender" name="gender" id = "university">
+                  <option value="">Choose the University</option>
+                  <option value="BZU">Birzeit University </option>
+                  <option value="PPU">Polytechnic University </option>
+               </select>
+               <br><br>
+               <select class="select-style gender" name="gender" id = "branch">
+                  <option value="">Choose the branch</option>
+                  <option value="literature">Literature</option>
+                  <option value="scientific">Scientific</option>
+               </select>
+               <br><br>
+               </select>
+               <select class="select-style gender" name="gender" id = "program">
+                  <option value="">Choose the program</option>
+                  <option value="bachelor">Bachelor</option>
+                  <option value="master">Master</option>
+               </select>
+               <br><br>
+               <input type="button" onclick="search()" value="Search">
+            </form>
+         </div>
+		 </div>
+		 <br><br>
+          <div id="example1"></div>
+      </div>
+   </body>
+</html>
+
